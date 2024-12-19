@@ -1,0 +1,15 @@
+name: heart-disease-project  # Name of the environment
+channels:
+  - defaults  # Channels to search for packages
+dependencies:
+  - python=3.8  # Python version you want to use
+  - pandas      # Data manipulation library
+  - numpy       # Numerical computing library
+  - scikit-learn # Machine learning library
+  - matplotlib  # For plotting graphs
+  - seaborn     # For statistical data visualization
+  - jupyter     # Jupyter notebook for interactive development
+  - pip         # To install pip-based dependencies
+  - pip:
+    - joblib   # For saving models
+    - seaborn  # For advanced visualization
